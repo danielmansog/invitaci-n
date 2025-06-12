@@ -15,14 +15,14 @@ export const WEDDING_DETAILS = {
   dressCodeDescription: "Queremos que todos se vean y sientan espectaculares para celebrar este día tan especial.",
   rsvpDeadline: "1 de Febrero del 2026",
   googleFormRsvpUrl: "https://forms.gle/TU_URL_A_TU_GOOGLE_FORM", 
-  heroImageUrl: "./assets/images/hero-principal.jpg", // Actualizado a imagen local
+  heroImageUrl: "./assets/images/foto4.jpg", // Actualizado a imagen local
   galleryImages: [
-    { src: "./assets/images/galeria-1.jpg", alt: "Daniel y Delys - Recuerdo 1" },
-    { src: "./assets/images/galeria-2.jpg", alt: "Daniel y Delys - Recuerdo 2" },
-    { src: "./assets/images/galeria-3.jpg", alt: "Daniel y Delys - Recuerdo 3" },
-    { src: "./assets/images/galeria-4.jpg", alt: "Daniel y Delys - Recuerdo 4" },
+    { src: "./assets/images/foto1.jpg", alt: "Daniel y Delys - Recuerdo 1" },
+    { src: "./assets/images/foto2.jpg", alt: "Daniel y Delys - Recuerdo 2" },
+    { src: "./assets/images/foto3.jpg", alt: "Daniel y Delys - Recuerdo 3" },
+    { src: "./assets/images/foto4.jpg", alt: "Daniel y Delys - Recuerdo 4" },
     // Puedes añadir más imágenes aquí siguiendo el mismo formato
-    // { src: "./assets/images/galeria-5.jpg", alt: "Daniel y Delys - Recuerdo 5" },
+    // { src: "./assets/images/foto4.jpg", alt: "Daniel y Delys - Recuerdo 5" },
   ] as GalleryImage[],
   footerText: "Hecho con amor por Daniel y Delys | 2026",
 };
