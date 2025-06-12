@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuestra Boda - [Nombre 1] y [Nombre 2]</title>
+    <title>Nuestra Boda - Daniel y Delys</title>
     <style>
         /* --- ESTILOS GENERALES --- */
         body {
@@ -95,6 +95,22 @@
         .rsvp-button:hover {
             background-color: #B8860B; /* Dorado más oscuro */
         }
+
+        /* --- BOTÓN GOOGLE MAPS --- */
+        .maps-button {
+            display: inline-block;
+            background-color: #4285F4; /* Color azul Google Maps */
+            color: white;
+            padding: 10px 22px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            margin-top: 12px;
+            transition: background-color 0.3s ease;
+        }
+        .maps-button:hover {
+            background-color: #3367D6;
+        }
         
         /* --- OTRAS SECCIONES --- */
         .event-details {
@@ -168,7 +184,7 @@
             <h2>Nuestra Historia</h2>
             <!-- CAMBIA ESTO: Escribe aquí un párrafo sobre ustedes -->
             <p>
-                Nuestra aventura comenzó hace [Número] años, en [Lugar o situación donde se conocieron]. Desde ese primer día, supimos que habíamos encontrado algo especial. Hemos compartido risas, sueños y hemos crecido juntos en cada paso del camino. Ahora, estamos emocionados de empezar nuestro próximo capítulo como marido y mujer y nos encantaría que nos acompañaras en nuestro gran día.
+                Nuestra aventura comenzó hace [Número] años, en [Lugar o situación donde se conocieron]. Desde ese primer día, supimos que habíamos encontrado algo especial. Hemos compartido ris[...]
             </p>
         </section>
 
@@ -183,6 +199,10 @@
                     <p><strong>Hora:</strong> 19:30</p>
                     <p><strong>Lugar:</strong> Finca "La Montaña"</p>
                     <p>Av. Amazonas Central, 2, 4, 28300 Aranjuez, Madrid</p>
+                    <!-- BOTÓN GOOGLE MAPS -->
+                    <a href="https://maps.app.goo.gl/uXBW4oN33Z19bt4w8" target="_blank" class="maps-button">
+                        <i class="fas fa-map-marked-alt"></i> Ver en Google Maps
+                    </a>
                 </div>
                 <div>
                     <i class="fas fa-tshirt"></i>
@@ -249,6 +269,9 @@
             }
         }, 1000);
     </script>
+
+</body>
+</html>
 
 </body>
 </html>
