@@ -1,5 +1,6 @@
 {
   "name": "Nuestra Boda - Daniel y Delys",
   "description": "Una página web para la boda de Daniel y Delys, con detalles del evento, galería de fotos y un formulario interactivo para confirmar asistencia (RSVP).",
-  "requestFramePermissions": []
+  "requestFramePermissions": [],
+  "prompt": ""
 }

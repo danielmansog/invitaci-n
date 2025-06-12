@@ -6,13 +6,7 @@ export interface CountdownTime {
   seconds: string;
 }
 
-export interface RsvpFormData {
-  name: string;
-  attending: 'yes' | 'no' | '';
-  guests: number;
-  dietaryRestrictions: string;
-  message: string;
-}
+// RsvpFormData interface removed
 
 export interface GalleryImage {
   src: string;
